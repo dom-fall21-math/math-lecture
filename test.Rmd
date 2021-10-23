@@ -1,0 +1,42 @@
+---
+title: "Chapter Test"
+include:
+  -\usepackage{amsmath}
+date: "`r Sys.date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+#### Example 3.1 
+$y = |x|$
+
+<button onclick="myFunction()">Show</button>
+ 
+<div id="myDIV">
+$$
+	\begin{align}
+		0 &= TR - TC \\
+		 TC &= TR \\
+		TR &= TC  \\
+		1.20(q) &= 0.50(q) + 10,000  \\
+		1.20(q) -  0.50(q) &= 10,000 \\
+		 0.70(q) &= 10,000 \\
+		\left[\frac{1}{0.70}\right] 0.70(q) &= 10,000 \left[\frac{1}{0.70}\right] \\
+		 q &= \frac{10,000}{0.70} \\
+		q &= 14,285
+	\end{align}
+$$
+</div>
